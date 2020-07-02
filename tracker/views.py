@@ -9,7 +9,12 @@ def home_page(request):
     return HttpResponse(
         '''
         <h1>
-        Hi, This is FTL User Tracker. For more details <a href="https://github.com/Sehanshah/FTL_user_tracker"> Click here </a> .
+        Hi, This is FTL User Tracker.
+        <br/>
+        To Check API Response, <a href="/users_list/"> Click here </a>.
+        <br/>
+        For more details <a target="_blank" href="https://github.com/Sehanshah/FTL_user_tracker"> Click here </a>.
+        <br/>
         </h1>
         '''
     )
