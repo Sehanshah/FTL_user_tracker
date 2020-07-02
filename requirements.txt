@@ -1,0 +1,11 @@
+Django
+djangorestframework
+Faker
+names
+python-dateutil
+pytz
+six
+sqlparse
+text-unidecode
+gunicorn
+django-heroku
