@@ -20,7 +20,7 @@ class UserProfileSerializer(serializers.ModelSerializer):
         if activity_periods.exists():
             for activity in activity_periods:
                 activity_period_list.append({
-                    "start_time": datetime.strftime(activity.start_time, "%b %-d %Y %-H:%M%p"),
-                    "end_time": datetime.strftime(activity.end_time, "%b %-d %Y %-H:%M%p")
+                    "start_time": datetime.strftime(activity.start_time, "%b %-d %Y %-I:%M%p"),
+                    "end_time": datetime.strftime(activity.end_time, "%b %-d %Y %-I:%M%p")
                 })
         return activity_period_list
