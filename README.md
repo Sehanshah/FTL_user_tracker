@@ -77,7 +77,9 @@ To update the database with dummy data, Activate the virtual environment and run
   >python manage.py generate_data --user_count <user_count>  --max_activity_entries <maximum_activity_entry_count>
 
 Here,
+
  **user_count** is the number of users 
+ 
  **maximum_activity_entry_count** is the maximum number of entry of user activity in DB
  For example,
   If 5 is given random number from 0 to 5 will be taken, and that much activity period entries will be added for that particular user
