@@ -6,7 +6,13 @@ from tracker.serializers import *
 
 
 def home_page(request):
-    return HttpResponse('Hi')
+    return HttpResponse(
+        '''
+        <h1>
+        Hi, This is FTL User Tracker. For more details <a href="https://github.com/Sehanshah/FTL_user_tracker"> Click here </a> .
+        </h1>
+        '''
+    )
 
 
 def users_list(request):
