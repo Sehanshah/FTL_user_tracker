@@ -84,4 +84,4 @@ Here,
  
  For example,
  
-  If 5 is given random number from 0 to 5 will be taken, and that much activity period entries will be added for that particular user
+  If 5 is given, random number from 0 to 5 will be taken, and that much activity period entries will be added for that particular user
